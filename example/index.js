@@ -2,4 +2,11 @@
 
 const customReturn = require("../lib");
 
-console.log(customReturn());
+let noop = customReturn();
+noop();
+// undefined
+// Nothing happened :D
+
+let magic = customReturn(42);
+console.log(magic());
+// => 42

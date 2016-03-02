@@ -15,20 +15,26 @@ $ npm i --save custom-return
 
 const customReturn = require("custom-return");
 
-console.log(customReturn());
+let noop = customReturn();
+noop();
+// undefined
+// Nothing happened :D
+
+let magic = customReturn(42);
+console.log(magic());
+// => 42
 ```
 
 ## Documentation
 
-### `customReturn(a, b)`
+### `customReturn(value)`
 Generate a function that returns a constant.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **Anything** `value`: The value to return.
 
 #### Return
-- **Number** Return description.
+- **Function** A function that returns the specified value.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
