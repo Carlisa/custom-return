@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/custom-return/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/custom-return#readme"
+  "homepage": "https://github.com/IonicaBizau/custom-return#readme",
+  "dependencies": {
+    "noop6": "^1.0.0"
+  }
 }
