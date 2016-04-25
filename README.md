@@ -1,18 +1,20 @@
+
 # custom-return [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/custom-return.svg)](https://www.npmjs.com/package/custom-return) [![Downloads](https://img.shields.io/npm/dt/custom-return.svg)](https://www.npmjs.com/package/custom-return) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Generate a function that returns a constant.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save custom-return
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-"use strict";
-
 const customReturn = require("custom-return");
 
 let noop = customReturn();
@@ -25,7 +27,8 @@ console.log(magic());
 // => 42
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `customReturn(value)`
 Generate a function that returns a constant.
@@ -36,13 +39,18 @@ Generate a function that returns a constant.
 #### Return
 - **Function** A function that returns the specified value.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`ansy`](https://github.com/IonicaBizau/ansy#readme)—Cross platform ANSI colors made easy.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
