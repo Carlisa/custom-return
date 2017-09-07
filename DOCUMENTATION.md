@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Generate a function that returns a constant.
 
 #### Params
+
 - **Anything** `value`: The value to return.
 
 #### Return
