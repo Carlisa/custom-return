@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save custom-return
+# Using npm
+npm install --save custom-return
+
+# Using yarn
+yarn add custom-return
 ```
 
 
